@@ -1,0 +1,6 @@
+IPTV vs TV
+TV is using a dedicated infrastructure, it is usually sends all channels and the receiver display only the channel he wishes.
+IPTV is using the Ethernet infrastructure and IP protocol to transmit the channel to the consumer. The consumer chose the desire channel and request this from the server, which then send only this channel to him.
+
+Real time IPTV
+To implement real time IPTV in an efficient way we can use IGMP.
