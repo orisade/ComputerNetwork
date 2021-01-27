@@ -4,13 +4,13 @@ IPTV is using the Ethernet infrastructure and IP protocol to transmit the channe
 
 Real time IPTV
 To implement real time IPTV in an efficient way we can use IGMP.
-We can apply this method becuase we have dedicated routers between each client and the server.
+We can apply this method because we have dedicated routers between each client and the server.
 The dedicated routers are a part of a private dedicated network.
 
 https://www.youtube.com/watch?v=5YKLtv-Xg6w
 In this type of application we have the ability to stream via multicast.
 in this way we economize bandwidth. multicast streams sends traffic to a given port only when those traffic are requested.
-**the multicast stream sits at the backbone of the network and they don't come down the segment or to every device untill he is requested.
+**the multicast stream sits at the backbone of the network and they don't come down the segment or to every device until he is requested.
 **read chapter 2 for information about video streaming and CDNs.
 
 
