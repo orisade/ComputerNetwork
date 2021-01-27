@@ -4,3 +4,47 @@ IPTV is using the Ethernet infrastructure and IP protocol to transmit the channe
 
 Real time IPTV
 To implement real time IPTV in an efficient way we can use IGMP.
+We can apply this method becuase we have dedicated routers between each client and the server.
+The dedicated routers are a part of a private dedicated network.
+
+https://www.youtube.com/watch?v=5YKLtv-Xg6w
+In this type of application we have the ability to stream via multicast.
+in this way we economize bandwidth. multicast streams sends traffic to a given port only when those traffic are requested.
+**the multicast stream sits at the backbone of the network and they don't come down the segment or to every device untill he is requested.
+**read chapter 2 for information about video streaming and CDNs.
+
+
+Computer Network Chanpters to read:
+2.6. Video Streaming and Content Distribution Networks
+3.7. TCP Congestion Control
+4.2. What’s Inside a Router?
+4.3. The Internet Protocol (IP): IPv4, Addressing, IPv6, and More
+4.3.5. IPv6
+5.4. Routing Among the ISPs: BGP
+6.4. Switched Local Area Networks
+6.7. Retrospective: A Day in the Life of a Web Page Request
+9.2. Streaming Stored Video
+
+
+Useful links:
+https://en.wikipedia.org/wiki/Content_delivery_network
+https://en.wikipedia.org/wiki/IP_multicast
+https://www.researchgate.net/publication/221138005_Unicast_versus_Multicast_for_Live_TV_Delivery_in_Networks_with_Tree_Topology
+
+
+**TCP or UDP segments are carried as IP payload. 
+**the job of the link-layer switch is to carry datagrams between hosts and routers; a switch
+does this job transparently, that is, without the host or router having to explicitly
+address the frame to the intervening switch
+**However, sometimes a sending adapter does want all the other adapters on the
+LAN to receive and process the frame it is about to send. In this case, the sending
+adapter inserts a special MAC broadcast address into the destination address field
+of the frame.
+**MAC addresses is just like your ID, even when you want to get a IP address from the DHCP 
+you have to introduce yourself as someone.. this is by MAC address.
+Also, MAC enables you to use whatever L3 protocol you choose, not only IP, as power of layering.
+
+
+
+
+
