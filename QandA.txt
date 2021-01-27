@@ -14,7 +14,7 @@ in this way we economize bandwidth. multicast streams sends traffic to a given p
 **read chapter 2 for information about video streaming and CDNs.
 
 
-Computer Network Chanpters to read:
+Computer Network Chapters to read:
 2.6. Video Streaming and Content Distribution Networks
 3.7. TCP Congestion Control
 4.2. What’s Inside a Router?
